@@ -1,0 +1,278 @@
+{
+  "app": {
+    "bundleName": "com.kele.hos_demo_1",
+    "vendor": "kele",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.kele.hos_demo_1",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING",
+        "reason": "开启前台服务",
+        "usedScene": {
+          "ability": [
+            "com.kele.hos_demo_1.service.ForegroundServiceAbility"
+          ],
+          "when": "always"
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "HOS_Demo_1",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "actions": [
+              "second_ability_1"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.SecondAbility",
+        "icon": "$media:icon",
+        "description": "$string:secondability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.TestLauncherAbility",
+        "icon": "$media:icon",
+        "description": "$string:testlauncherability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.text.TextAbility",
+        "icon": "$media:icon",
+        "description": "$string:textability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "actions": [
+              "page_jump_slice_1"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.page_jump.PageJumpAbility",
+        "icon": "$media:icon",
+        "description": "$string:pagejumpability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "backgroundModes": [
+          "location"
+        ],
+        "name": "com.kele.hos_demo_1.service.ServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:serviceability_description",
+        "type": "service",
+        "visible": true
+      },
+      {
+        "backgroundModes": [
+          "dataTransfer",
+          "location"
+        ],
+        "name": "com.kele.hos_demo_1.service.ForegroundServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:foregroundservice_description",
+        "type": "service",
+        "visible": true
+      },
+      {
+        "permissions": [
+          "com.kele.hos_demo_1.data.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.kele.hos_demo_1.data.UserDataAbility",
+        "icon": "$media:icon",
+        "description": "$string:userdataability_description",
+        "type": "data",
+        "uri": "dataability://com.kele.hos_demo_1.data.UserDataAbility"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.phone_service.PhoneServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:phoneserviceability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.button.ButtonAbility",
+        "icon": "$media:icon",
+        "description": "$string:buttonability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.text_field.TextFieldAbility",
+        "icon": "$media:icon",
+        "description": "$string:textfieldability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.image.ImageAbility",
+        "icon": "$media:icon",
+        "description": "$string:imageability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.tablist_tab.TabListTabAbility",
+        "icon": "$media:icon",
+        "description": "$string:tablisttabability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.picker.PickerAbility",
+        "icon": "$media:icon",
+        "description": "$string:pickerability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.data_picker.DataPickerAbility",
+        "icon": "$media:icon",
+        "description": "$string:datapickerability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.time_picker.TimePickerAbility",
+        "icon": "$media:icon",
+        "description": "$string:timepickerability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.switch_1.SwitchAbility",
+        "icon": "$media:icon",
+        "description": "$string:switchability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.radio_button.RadioButtonAbility",
+        "icon": "$media:icon",
+        "description": "$string:radiobuttonability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.radio_container.RadioContainerAbility",
+        "icon": "$media:icon",
+        "description": "$string:radiocontainerability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.check_box.CheckBoxAbility",
+        "icon": "$media:icon",
+        "description": "$string:checkboxability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.progressbar.ProgressBarAbility",
+        "icon": "$media:icon",
+        "description": "$string:progressbarability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.round_progress.RoundProgressBarAbility",
+        "icon": "$media:icon",
+        "description": "$string:roundprogressbarability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

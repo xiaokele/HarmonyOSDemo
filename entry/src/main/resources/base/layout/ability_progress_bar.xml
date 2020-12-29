@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:padding="20vp"
+    ohos:background_element="black"
+    ohos:orientation="vertical">
+
+    <ProgressBar
+        ohos:progress_width="10vp"
+        ohos:height="60vp"
+        ohos:id="$+id:pb"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:progress_element="#FF9900"
+        ohos:progress_hint_text="20%"
+        ohos:background_instruct_element="white"
+        ohos:max="100"
+        ohos:progress_hint_text_color="#FFCC99"
+        ohos:divider_lines_enabled="true"
+        ohos:divider_lines_number="5"
+        ohos:min="0"
+        ohos:progress="20"/>
+
+</DirectionalLayout>

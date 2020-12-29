@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <RadioContainer
+        ohos:height="match_parent"
+        ohos:id="$+id:radio_container"
+        ohos:width="match_parent">
+
+        <RadioButton
+            ohos:id="$+id:rb_1"
+            ohos:height="40vp"
+            ohos:width="match_content"
+            ohos:text_color_on="#00BFFF"
+            ohos:text_color_off="#808080"
+            ohos:text="A.Learning"
+            ohos:text_size="20fp"/>
+
+        <RadioButton
+            ohos:id="$+id:rb_2"
+            ohos:height="40vp"
+            ohos:width="match_content"
+            ohos:text_color_on="#00BFFF"
+            ohos:text_color_off="#808080"
+            ohos:text="A.Learning"
+            ohos:text_size="20fp"/>
+    </RadioContainer>
+</DirectionalLayout>

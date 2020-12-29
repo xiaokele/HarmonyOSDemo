@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Switch
+        ohos:id="$+id:btn_switch"
+        ohos:text_state_off="关"
+        ohos:text_color_off="white"
+        ohos:text_color_on="white"
+        ohos:text_size="18fp"
+        ohos:text_state_on="开"
+        ohos:height="30vp"
+        ohos:width="60vp"/>
+
+</DirectionalLayout>

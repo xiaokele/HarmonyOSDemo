@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:padding="10vp"
+        ohos:width="match_parent">
+
+        <Text
+            ohos:id="$+id:text"
+            ohos:width="100vp"
+            ohos:height="match_content"
+            ohos:text_color="#0000FF"
+            ohos:text_size="28fp"
+            ohos:text_font="serif"
+            ohos:text_weight="700"
+            ohos:text_alignment="horizontal_center|bottom"
+            ohos:italic="true"
+            ohos:padding="10vp"
+            ohos:multiple_lines="true"
+            ohos:max_text_lines="2"
+            ohos:background_element="$graphic:background_text"
+            ohos:text="TextText"/>
+
+        <Text
+            ohos:id="$+id:text_1"
+            ohos:width="190vp"
+            ohos:height="match_content"
+            ohos:min_height="30vp"
+            ohos:text_color="#0000FF"
+            ohos:text_size="28fp"
+            ohos:text_font="serif"
+            ohos:text_weight="700"
+            ohos:italic="true"
+            ohos:top_margin="10vp"
+            ohos:padding="10vp"
+            ohos:multiple_lines="true"
+            ohos:max_text_lines="1"
+            ohos:auto_font_size="true"
+            ohos:background_element="$graphic:background_text"
+            ohos:text="自动调节字体大小"/>
+
+        <Text
+            ohos:id="$+id:text_2"
+            ohos:width="75vp"
+            ohos:height="match_content"
+            ohos:text="TextText"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:top_margin="10vp"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:background_element="$graphic:background_text"/>
+    </DirectionalLayout>
+</ScrollView>

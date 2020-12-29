@@ -1,0 +1,104 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "HOS_Demo_1"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "secondability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "testlauncherability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "textability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "textability2_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "textability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "pagejumpability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "serviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "foregroundservice_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "userdataability_description",
+      "value": "hap sample empty provider"
+    },
+    {
+      "name": "phoneserviceability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "buttonability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "textfieldability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "imageability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "tablisttabability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "pickerability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "datapickerability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "timepickerability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "switchability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "radiobuttonability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "radiocontainerability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "checkboxability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "progressbarability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "roundprogressbarability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    }
+  ]
+}
