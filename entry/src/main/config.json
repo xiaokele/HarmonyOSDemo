@@ -272,6 +272,33 @@
         "label": "entry",
         "type": "page",
         "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.toast_dialog.ToastDialogAbility",
+        "icon": "$media:icon",
+        "description": "$string:toastdialogability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.scroll_view.ScrollViewAbility",
+        "icon": "$media:icon",
+        "description": "$string:scrollviewability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.kele.hos_demo_1.list_container.ListContainer",
+        "icon": "$media:icon",
+        "description": "$string:listcontainer_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
       }
     ]
   }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:padding="20vp"
+    ohos:orientation="vertical">
+
+    <ListContainer
+        ohos:id="$+id:list_container"
+        ohos:background_element="#FAEBD7"
+        ohos:rebound_effect="true"
+        ohos:shader_color="#90EE90"
+        ohos:height="match_parent"
+        ohos:width="300vp"
+        ohos:layout_alignment="horizontal_center"/>
+
+</DirectionalLayout>

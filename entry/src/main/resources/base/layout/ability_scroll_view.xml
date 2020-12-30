@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <ScrollView
+        ohos:id="$+id:scrollview"
+        ohos:height="match_parent"
+        ohos:width="300vp"
+        ohos:background_element="#FFDEAD"
+        ohos:rebound_effect="true"
+        ohos:top_margin="32vp"
+        ohos:bottom_padding="16vp"
+        ohos:layout_alignment="horizontal_center">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:orientation="horizontal"
+            ohos:width="match_content">
+
+            <Image
+                ohos:id="$+id:img_1"
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:plant"/>
+
+            <Image
+                ohos:id="$+id:img_1"
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:plant"/>
+
+            <Image
+                ohos:id="$+id:img_1"
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:plant"/>
+
+            <Image
+                ohos:id="$+id:img_1"
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:plant"/>
+
+            <Image
+                ohos:id="$+id:img_1"
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:plant"/>
+
+            <Image
+                ohos:id="$+id:img_1"
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:plant"/>
+        </DirectionalLayout>
+    </ScrollView>
+</DirectionalLayout>

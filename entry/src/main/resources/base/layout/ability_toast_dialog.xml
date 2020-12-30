@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:padding="20vp"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:t_simple_toast_dialog"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="10vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="一个简单的弹窗"
+        ohos:text_size="18fp"/>
+
+    <Text
+        ohos:id="$+id:t_custom_toast_dialog"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="10vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:top_margin="10vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="自定义弹窗"
+        ohos:text_size="18fp"/>
+</DirectionalLayout>

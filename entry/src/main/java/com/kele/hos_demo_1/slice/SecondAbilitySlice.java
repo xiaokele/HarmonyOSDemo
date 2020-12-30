@@ -103,6 +103,15 @@ public class SecondAbilitySlice extends AbilitySlice {
                     case 18:
                         startAbility("com.kele.hos_demo_1.round_progress.RoundProgressBarAbility");
                         break;
+                    case 19:
+                        startAbility("com.kele.hos_demo_1.toast_dialog.ToastDialogAbility");
+                        break;
+                    case 20:
+                        startAbility("com.kele.hos_demo_1.scroll_view.ScrollViewAbility");
+                        break;
+                    case 21:
+                        startAbility("com.kele.hos_demo_1.list_container.ListContainer");
+                        break;
                 }
 
             }
@@ -171,6 +180,9 @@ public class SecondAbilitySlice extends AbilitySlice {
         rList.add(new SecondListItem("Checkbox"));
         rList.add(new SecondListItem("ProgressBar"));
         rList.add(new SecondListItem("RoundProgressBar"));
+        rList.add(new SecondListItem("ToastDialog"));
+        rList.add(new SecondListItem("ScrollView"));
+        rList.add(new SecondListItem("ListContainer"));
         return rList;
     }
 
